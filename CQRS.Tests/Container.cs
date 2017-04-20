@@ -1,8 +1,5 @@
-﻿using System;
-using System.Linq;
-using System.Reflection;
+﻿using System.Reflection;
 using Autofac;
-using Autofac.Core;
 using Autofac.Extras.NLog;
 
 namespace CQRS.Tests

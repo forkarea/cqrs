@@ -1,12 +1,13 @@
-﻿namespace CQRS.Tests.Commands
+﻿using Autofac;
+using FakeItEasy;
+using Shouldly;
+using Xunit;
+
+namespace CQRS.Tests.Commands
 {
 	using System;
-	using Autofac;
 	using Bus.Command;
 	using Command;
-	using FakeItEasy;
-	using Shouldly;
-	using Xunit;
 
 	public class CommandBusTest
 	{
